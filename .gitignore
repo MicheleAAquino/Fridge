@@ -31,3 +31,14 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Arquivos gerados pelo Maven
+target/
+${project.build.directory}/
+
+# Configurações locais
+.idea/
+*.iml
+
+# Logs
+*.log
